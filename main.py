@@ -1,1 +1,38 @@
-print("The only limit to our realization of tomorrow is our doubts of today.")
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 諸藤淳子
+# SPDX-License-Identifier: MIT
+
+import sys
+import random
+
+# テーマごとの名言リスト
+QUOTES = {
+    "study": ["Keep learning always", "Small steps matter", "Focus builds success"],
+    "love": ["Love conquers all", "Trust grows love", "Love is strength"],
+    "friend": ["Friends stay forever", "Share moments joyfully", "Walk together always"],
+    "life": ["Life needs courage", "Choose your path", "Moments make life"],
+}
+
+def generate_quote(theme: str) -> str:
+    """テーマに応じた名言を返す。なければデフォルト。"""
+    theme = theme.lower()
+    if theme in QUOTES:
+        return random.choice(QUOTES[theme])
+    return "Stay strong always"  # fallback
+
+def main():
+    # 標準入力からテーマを受け取る
+    theme = sys.stdin.read().strip()
+
+    if not theme:
+        # 標準エラーにメッセージを出す
+        print("Error: no theme provided", file=sys.stderr)
+        sys.exit(1)
+
+    quote = generate_quote(theme)
+    print(quote)
+    sys.exit(0)
+
+if __name__ == "__main__":
+    main()
+
