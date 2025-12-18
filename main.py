@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2025 諸藤淳子
-# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Junko Morofuji
+# SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 import random

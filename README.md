@@ -1,17 +1,20 @@
 # famousquote
 
-famousquoteは、テーマ（例：勉強、恋愛、友情など）を入力すると、  
+famousquoteは、テーマ（例：勉強、恋愛、友情など）を入力すると、
 5語以内の超短い名言をランダムに生成するコマンドラインツールです。
 
----
 
-## インストール
+# plusコマンド
+![test](https://github.com/carpstreamer7/famousquote/blob/main/main.py)
 
-リポジトリをクローンするだけで使えます。
+# 必要なソフトウェア
+- Python
+  - テスト済みバージョン: 3.7〜3.10
 
-```bash
-git clone <https://github.com/carpstreamer7/famousquote/blob/main/famousquote>
-cd famousquote
-chmod +x main.py
+# テスト環境
+- WSL
+
+© 2025  Junko Morofuji
 
 
+- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
