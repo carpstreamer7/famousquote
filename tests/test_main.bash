@@ -10,7 +10,7 @@ ng () {
 }
 
 # famousquote が実行可能か
-out=$(echo "study" | ./main.py)
+out=$(echo "study" | ./famousquote)
 [ "$?" -eq 0 ] || ng "$LINENO"
 
 # 出力が5語以内か（単語数チェック）
