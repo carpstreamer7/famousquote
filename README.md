@@ -5,7 +5,11 @@ famousquoteは、テーマ（例：勉強、恋愛、友情など）を入力す
 
 
 # famousquoteコマンド
-![test](https://github.com/carpstreamer7/famousquote/blob/main/famousquote)
+
+# テスト状況
+
+![test](https://github.com/carpstreamer7/famousquote/actions/workflows/test.yml/badge.svg)
+
 
 # 使い方
 入力例:echo "study" | ./famousquote
