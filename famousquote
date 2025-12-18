@@ -25,9 +25,8 @@ def main():
     theme = sys.stdin.read().strip()
 
     if not theme:
-        # 標準エラーにメッセージを出す
-        print("Error: no theme provided", file=sys.stderr)
-        sys.exit(1)
+        theme = "life"
+
 
     quote = generate_quote(theme)
     print(quote)
