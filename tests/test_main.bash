@@ -17,6 +17,14 @@ out=$(echo "study" | ./famousquote)
 word_count=$(echo "$out" | wc -w)
 [ "$word_count" -le 5 ] || ng "$LINENO"
 
+# 空入力でも異常終了しないか
+out=$(echo "" | ./famousquote)
+[ "$?" -eq 0 ] || ng "$LINENO"
+
+# 改行だけでも異常終了しないか
+out=$(printf "\n" | ./famousquote)
+[ "$?" -eq 0 ] || ng "$LINENO"
+
 [ "$res" = 0 ] && echo "OK"
 exit $res
 
