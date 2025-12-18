@@ -1,5 +1,5 @@
-#!/bin/bash
-# SPDX-FileCopyrightText: 2025 carpstreamer7
+#!/bin/bash -xv
+# SPDX-FileCopyrightText: 2025 Junko Morofuji
 # SPDX-License-Identifier: BSD-3-Clause
 
 res=0
