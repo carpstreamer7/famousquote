@@ -4,15 +4,15 @@ famousquoteは、テーマ（例：勉強、恋愛、友情など）を入力す
 5語以内の超短い名言をランダムに生成するコマンドラインツールです。
 
 
-# famousquoteコマンド
-
 # テスト状況
 
 ![test](https://github.com/carpstreamer7/famousquote/actions/workflows/test.yml/badge.svg)
 
 
 # 使い方
-入力例:echo "study" | ./famousquote
+実行例:
+```bash
+echo "study" | ./famousquote
 出力例：Keep learning always
 
 入力できるテーマ
@@ -30,7 +30,7 @@ life が指定されたものとして動作します。
 
 #テスト
 bash を用いたテストを用意しています。
-(bash tests/test_main.bash)
+$ bash tests/test_main.bash
 
 すべてのテストに成功すると OK と表示されます。
 
