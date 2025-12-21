@@ -63,7 +63,7 @@ $ bash tests/test_main.bash
 
 # テスト環境
 - WSL
- - Ubuntu 22.04 LTS
+  - Ubuntu 22.04 LTS
 
 
 # ライセンス
