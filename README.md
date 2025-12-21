@@ -37,15 +37,11 @@ $ echo "study" | ./famousquote
 Keep learning always
 ```
 
-入力できるテーマ
-
-study
-
-love
-
-friend
-
-life
+入力できるテーマ：
+- study
+- love
+- friend
+- life
 
 空入力、改行のみ、または未定義のテーマが入力された場合は
 life が指定されたものとして動作します。
@@ -53,7 +49,9 @@ life が指定されたものとして動作します。
 
 # テスト
 bash を用いたテストを用意しています。
+```bash
 $ bash tests/test_main.bash
+```
 
 すべてのテストに成功すると OK と表示されます。
 
@@ -70,4 +68,4 @@ $ bash tests/test_main.bash
 
 # ライセンス
 © 2025  Junko Morofuji
-このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
